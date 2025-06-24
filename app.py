@@ -62,10 +62,20 @@ webrtc_streamer(
     key="color_detector_camera",
     video_processor_factory=lambda: VideoProcessor(model, confidence_threshold, iou_threshold),
     rtc_configuration={
-        "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
+        "iceServers": [
+            {"urls": ["stun:stun.l.google.com:19302"]},
+            {"urls": ["stun:stun1.l.google.com:19302"]},
+            {"urls": ["stun:stun2.l.google.com:19302"]},
+            {"urls": ["stun:stun3.l.google.com:19302"]},
+            {"urls": ["stun:stun4.l.google.com:19302"]},
+            {"urls": ["stun:stun.services.mozilla.com"]},
+            {"urls": ["stun:stun.nextcloud.com:3478"]},
+            {"urls": ["stun:stun.stunprotocol.org:3478"]},
+            {"urls": ["stun:stun.voipbuster.com:3478"]},
+        ]
     },
-    media_stream_constraints={"video": True, "audio": False}, # Hanya aktifkan video, nonaktifkan audio
-    async_transform=True # Mengizinkan pemrosesan frame asinkron
+    media_stream_constraints={"video": True, "audio": False},
+    async_processing=True
 )
 
 st.info("Aplikasi siap. Izinkan akses kamera di browser Anda.")
