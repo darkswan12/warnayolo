@@ -26,7 +26,7 @@ def load_yolo_model_with_checks(): # Ganti nama fungsi untuk kejelasan
     # PASTIKAN JALUR INI BENAR UNTUK DEPLOYMENT DI STREAMLIT CLOUD
     # Jika best.pt ada di root folder repo GitHub Anda: 'best.pt'
     # Jika best.pt ada di runs/detect/train3/weights/best.pt di repo GitHub Anda: 'runs/detect/train3/weights/best.pt'
-    model_path_in_repo = 'runs/detect/train3/weights/best.pt' # <--- SESUAIKAN JALUR INI!
+    model_path_in_repo = 'best.pt' # <--- SESUAIKAN JALUR INI!
     
     st.info(f"Mencoba memuat model dari jalur: {model_path_in_repo}")
     
