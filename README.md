@@ -1,6 +1,6 @@
 # 🎨 WarnaYOLO: Real-time Color Detection with YOLOv8 and Streamlit
 
-Selamat datang di repositori WarnaYOLO! Proyek ini mendemonstrasikan implementasi deteksi warna secara real-time menggunakan model YOLOv8 (varian nano) yang dilatih dengan dataset warna dari KaggleHub, dan diintegrasikan ke dalam aplikasi web interaktif menggunakan Streamlit.
+Selamat datang di repositori WarnaYOLO! Proyek ini mendemonstrasikan implementasi deteksi warna secara real-time menggunakan model YOLOv8 (varian medium) yang dilatih dengan dataset warna dari KaggleHub, dan diintegrasikan ke dalam aplikasi web interaktif menggunakan Streamlit.
 
 ## 🌟 Fitur Utama
 
