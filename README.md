@@ -20,7 +20,7 @@ warnayolo/
 ├── .streamlit/
 │   └── config.toml          # Konfigurasi Streamlit (contoh: pengaturan versi Python)
 ├── notebooks/
-│   └── Deteksi_Warna_YOLOv8.ipynb  # Notebook untuk pelatihan model dan analisis data
+│   └── Deteksi_Warna_YOLOv8m.ipynb  # Notebook untuk pelatihan model dan analisis data
 
 
 ## 🛠️ Persiapan Lingkungan
