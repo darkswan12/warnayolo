@@ -82,7 +82,7 @@ Karena pelatihan model membutuhkan GPU, Google Colab adalah pilihan yang sangat 
 #### Opsi A: Menjalankan Secara Lokal (Disarankan untuk Pengembangan)
 
 1.  **Pastikan Model `best.pt` Sudah Ada:**
-    Pastikan Anda telah mengunduh `best.pt` dari Colab dan meletakkannya di jalur yang benar di repositori lokal Anda, misalnya: `warnayolo/runs/detect/train3/weights/best.pt`.
+    Pastikan Anda telah mengunduh `best.pt` dari Colab dan meletakkannya di jalur yang benar di repositori lokal Anda, misalnya: `warnayolo/best.pt`.
 
 2.  **Buka Terminal/Command Prompt:**
     Navigasi ke *root directory* proyek Anda (`warnayolo/`) di terminal atau Command Prompt yang sama di mana virtual environment Anda aktif.
@@ -98,7 +98,7 @@ Karena pelatihan model membutuhkan GPU, Google Colab adalah pilihan yang sangat 
 Ini memungkinkan aplikasi Anda diakses melalui URL publik dari mana saja.
 
 1.  **Siapkan Repositori GitHub:**
-    * Pastikan seluruh kode proyek Anda (`app.py`, `requirements.txt`, `packages.txt`, `.streamlit/config.toml`, dan folder `runs/detect/train3/weights/best.pt`) sudah di-commit dan di-push ke repositori GitHub Anda (misalnya `https://github.com/darkswan12/warnayolo`).
+    * Pastikan seluruh kode proyek Anda (`app.py`, `requirements.txt`, `packages.txt`, `.streamlit/config.toml`, dan folder `best.pt`) sudah di-commit dan di-push ke repositori GitHub Anda (misalnya `https://github.com/darkswan12/warnayolo`).
 
 2.  **Konfigurasi File Deployment:**
     * **`requirements.txt`**: Pastikan berisi semua dependensi Python (sudah diatur di fase persiapan).
