@@ -11,7 +11,7 @@ Selamat datang di repositori WarnaYOLO! Proyek ini mendemonstrasikan implementas
 * **Deployment Cloud-Ready:** Siap untuk di-deploy di platform seperti Streamlit Community Cloud.
 
 ## 📁 Struktur Repositori
-
+```
 warnayolo/
 ├── app.py                   # Kode utama aplikasi Streamlit
 ├── requirements.txt         # Daftar dependensi Python
@@ -21,7 +21,7 @@ warnayolo/
 │   └── config.toml          # Konfigurasi Streamlit (contoh: pengaturan versi Python)
 ├── notebooks/
 │   └── Deteksi_Warna_YOLOv8m.ipynb  # Notebook untuk pelatihan model dan analisis data
-
+```
 
 ## 🛠️ Persiapan Lingkungan
 
