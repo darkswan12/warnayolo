@@ -13,14 +13,15 @@ Selamat datang di repositori WarnaYOLO! Proyek ini mendemonstrasikan implementas
 ## 📁 Struktur Repositori
 
 warnayolo/
-├── app.py                      # Kode utama aplikasi Streamlit
-├── requirements.txt            # Daftar dependensi Python
-├── packages.txt                # Dependensi sistem operasi untuk deployment
-├── .streamlit/                 # Folder konfigurasi Streamlit
-│   └── config.toml             # Konfigurasi Streamlit (mis. versi Python)
-└── notebooks/                  # Folder opsional untuk Jupyter Notebooks
-└── Deteksi_Warna_YOLOv8.ipynb # Notebook pelatihan model dan persiapan data
-└── best.pt     # Model terbaik hasil pelatihan
+├── app.py                   # Kode utama aplikasi Streamlit
+├── requirements.txt         # Daftar dependensi Python
+├── packages.txt             # Dependensi sistem operasi untuk deployment
+├── best.pt                  # Model YOLOv8 terbaik hasil training
+├── .streamlit/
+│   └── config.toml          # Konfigurasi Streamlit (contoh: pengaturan versi Python)
+├── notebooks/
+│   └── Deteksi_Warna_YOLOv8.ipynb  # Notebook untuk pelatihan model dan analisis data
+
 
 ## 🛠️ Persiapan Lingkungan
 
