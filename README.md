@@ -25,7 +25,7 @@ warnayolo/
 
 ## 🛠️ Persiapan Lingkungan
 
-Sebelum menjalankan proyek ini, pastikan Anda memiliki Python 3.9+ terinstal.
+Sebelum menjalankan proyek ini, pastikan Anda memiliki Python 3.10+ terinstal.
 
 1.  **Clone Repositori:**
     ```bash
@@ -33,7 +33,7 @@ Sebelum menjalankan proyek ini, pastikan Anda memiliki Python 3.9+ terinstal.
     cd warnayolo
     ```
 
-2.  **Buat Virtual Environment (Sangat Direkomendasikan):**
+2.  **Buat Virtual Environment (opsional):**
     ```bash
     python -m venv venv_warnayolo
     # Untuk Linux/macOS
@@ -104,10 +104,10 @@ Ini memungkinkan aplikasi Anda diakses melalui URL publik dari mana saja.
     * **`requirements.txt`**: Pastikan berisi semua dependensi Python (sudah diatur di fase persiapan).
         ```
         streamlit
-        opencv-python-headless # Penting untuk lingkungan server headless
+        opencv-python-headless
         numpy
         ultralytics
-        streamlit-webrtc==0.45.0 # Versi stabil untuk webrtc
+        streamlit-webrtc
         ```
     * **`packages.txt`**: Buat file ini di *root directory* repositori GitHub Anda. Ini memberitahu Streamlit Cloud untuk menginstal dependensi sistem operasi yang diperlukan oleh OpenCV.
         ```
@@ -151,5 +151,3 @@ Ini memungkinkan aplikasi Anda diakses melalui URL publik dari mana saja.
         * Latih model untuk lebih banyak *epoch*.
         * Pertimbangkan menggunakan varian YOLOv8 yang lebih besar (`yolov8s.pt` atau `yolov8m.pt`) jika sumber daya komputasi memungkinkan.
         * Periksa kembali kualitas dataset dan labeling (misalnya, jika gambar warna solid tidak benar-benar memenuhi seluruh frame atau ada mislabeling).
-
-Selamat mencoba proyek deteksi warna real-time Anda!
